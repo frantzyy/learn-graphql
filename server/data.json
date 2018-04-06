@@ -1,0 +1,41 @@
+{
+  "persons": [
+    {
+      "id": "1",
+      "name": "chris",
+      "homeworld": "earth",
+      "food" : "nachos"
+    },
+    {
+      "id": "2",
+      "name": "steve",
+      "homeworld": "mars",
+      "food" : "beer"
+    },
+    {
+      "id": "3",
+      "name": "jon",
+      "homeworld": "mercury",
+      "food" : "taytos"
+    },
+    {
+      "id": "4",
+      "name": "pratt",
+      "homeworld": "venus",
+      "food" : "cheese"
+    },
+    {
+      "id": "5",
+      "name": "tony",
+      "homeworld": "staturn",
+      "food" : "nepalese"
+    },
+    {
+      "id": "6",
+      "name": "martina",
+      "homeworld": "ireland",
+      "food" : "whiskey"
+    }
+   
+  ]
+}

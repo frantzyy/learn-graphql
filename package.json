@@ -1,0 +1,50 @@
+{
+  "name": "knowledgecenter",
+  "version": "1.0.0",
+  "description": "Knowledge Center documentation and POC repo for future integration efforts",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start-docs": "node docs-server.js",
+    "start-graphql": "nodemon ./server/index.js --exec babel-node",
+    "start-json": "json-server --watch ./server/data.json",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs-install": "gitbook install docs",
+    "docs-build": "gitbook build docs",
+    "docs-serve": "gitbook serve --port 3000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@git.forge.lmig.com:7999/kc/knowledgecenter.git"
+  },
+  "keywords": [
+    "kc",
+    "knowledgecenter",
+    "km",
+    "knowledge",
+    "management",
+    "verint"
+  ],
+  "author": "chris frantz",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "gitbook-cli": "2.3.2",
+    "json-server": "^0.12.1",
+    "nodemon": "^1.17.3"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cors": "^2.8.4",
+    "express": "4.16.2",
+    "express-graphql": "^0.6.12",
+    "graphql": "0.13.2",
+    "http-proxy": "^1.16.2",
+    "https": "^1.0.0",
+    "react": "16.3.0",
+    "react-dom": "16.3.0"
+  }
+}
