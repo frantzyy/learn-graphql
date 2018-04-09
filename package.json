@@ -1,31 +1,21 @@
 {
-  "name": "knowledgecenter",
+  "name": "learn-graphql",
   "version": "1.0.0",
-  "description": "Knowledge Center documentation and POC repo for future integration efforts",
+  "description": "learn graphql basics",
   "main": "index.js",
   "directories": {
     "doc": "docs"
   },
   "scripts": {
-    "start-docs": "node docs-server.js",
-    "start-graphql": "nodemon ./server/index.js --exec babel-node",
-    "start-json": "json-server --watch ./server/data.json",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "docs-install": "gitbook install docs",
-    "docs-build": "gitbook build docs",
-    "docs-serve": "gitbook serve --port 3000"
+    "start-g": "nodemon ./server/index.js --exec babel-node",
+    "start-j": "json-server --watch ./server/data.json"
   },
   "repository": {
     "type": "git",
-    "url": "ssh://git@git.forge.lmig.com:7999/kc/knowledgecenter.git"
+    "url": "ssh://git@github.com:frantzyy/learn-graphql.git"
   },
   "keywords": [
-    "kc",
-    "knowledgecenter",
-    "km",
-    "knowledge",
-    "management",
-    "verint"
+    
   ],
   "author": "chris frantz",
   "license": "ISC",
