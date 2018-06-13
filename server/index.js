@@ -16,7 +16,5 @@ app.use('/graphql', expressGraphQL(() => ({
     }))
 );
 
-
-
 app.listen(4000, () => console.log('express now running on localhost:4000/'));
 
